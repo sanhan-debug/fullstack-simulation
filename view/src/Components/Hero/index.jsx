@@ -7,7 +7,6 @@ function Hero() {
         <div className="img">
             <img src="https://preview.colorlib.com/theme/shop/img/header-img.png" alt="" />
         </div>
-
         <div className="text">
             <h1 ><span>Flat</span> 75%Off</h1>
             <h1 className='second'>IT’S HAPPENING <br />

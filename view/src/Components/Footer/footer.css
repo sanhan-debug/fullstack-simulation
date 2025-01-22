@@ -1,0 +1,92 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 50px;
+    background-color: #1a1a1a;
+    color: #ddd;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 10px 20px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.footer-column p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.newsletter form {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.newsletter input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.newsletter button {
+    padding: 10px 15px;
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #e73370;
+}
+
+.instagram-feed div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.instagram-feed img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.social-icons a {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #ddd;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ff4081;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #121212;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.footer-bottom a {
+    color: #ff4081;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}    

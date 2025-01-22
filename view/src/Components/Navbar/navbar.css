@@ -33,7 +33,7 @@
     .links {
         ul {
             .menu {
-                display:flex;
+                display:block;
                 font-size: 25px;
             }
 

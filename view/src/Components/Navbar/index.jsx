@@ -12,7 +12,6 @@ function Navbar() {
                     </div>
 
                     <div className="links">
-
                         <ul>
                             <IoMenu className='menu' />
                             <li><a href="">HOME</a></li>

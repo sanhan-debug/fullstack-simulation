@@ -1,6 +1,7 @@
 import Gallery from "../../Components/Gallery"
 import Hero from "../../Components/Hero"
 import MenProduct from "../../Components/MenProducts"
+import WomenProducts from "../../Components/WomenProducts"
 
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
             <Hero />
             <Gallery />
             <MenProduct/>
+            <WomenProducts/>
         </>
     )
 }
