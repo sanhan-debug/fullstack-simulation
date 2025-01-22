@@ -1,0 +1,48 @@
+.background{
+    position: relative;
+    background-color: blueviolet;
+    height: 90vh;
+    img{
+        position: absolute;
+        width: 826px;
+        height: 526px;
+        left: 5%;
+        bottom:0%
+    }
+
+    .text{
+        position: absolute;
+        width: 826px;
+        color: white;
+        right: 10%;
+        bottom: 35%;
+
+        h1{
+            font-size: 46px;
+            margin: 15px;
+        }
+
+        .second{
+            font-size: 64px;
+        }
+
+        span{
+            font-size: 26px;
+        }
+
+        a{
+            text-decoration: none;
+            border-radius: 22px;
+            border: 1px;
+            padding: 10px 25px;
+            background: rgb(254, 252, 255);
+            color: rgb(11, 9, 9);
+            transition: 0.5s all ease;
+            margin: 15px;
+        }
+
+        a:hover{
+            background: rgb(118, 23, 23);
+        }
+    }
+}

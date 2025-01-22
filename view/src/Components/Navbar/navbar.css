@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+
+    .logo {
+        margin: 15px;
+    }
+
+    .links {
+        ul {
+            display: flex;
+
+            .menu {
+                display: none;
+            }
+
+            li {
+                list-style-type: none;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    margin: 15px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:576px) {
+    .links {
+        ul {
+            .menu {
+                display:flex;
+                font-size: 25px;
+            }
+
+            a {
+                display: none;
+            }
+        }
+    }
+}

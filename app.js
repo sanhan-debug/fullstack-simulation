@@ -1,12 +1,17 @@
 import express from 'express'
 import dotenv from 'dotenv'
 import { connect } from 'mongoose'
+import cors from 'cors'
+import { productRouter } from './Router/productRouter.js'
 
 
 
 const app = express()
 dotenv.config()
 
+app.use(cors())
+app.use(express.json())
+app.use("/",productRouter)
 
 app.get('/',(req,res)=>{
     res.send('server is active')
